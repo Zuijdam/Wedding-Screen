@@ -1,3 +1,11 @@
+<?php
+require 'RedBeanPHP5_5/rb.php';
+try{
+    $db = new PDO('mysql:host=localhost;dbname=WeddingWall','root','root');
+} catch(PDOException $e){
+    echo $e->getmessage();
+}
+?>
 
 <!doctype html>
 <html lang="en">
@@ -18,11 +26,11 @@
         <div">
             <div id="home">
                 <script>
-                $(document).ready(function(){
-                setInterval(function(){
-                $("#home").load('messages.php')
-                }, 20);
-                });
+                    $(document).ready(function(){
+                    setInterval(function(){
+                    $("#home").load('messages.php')
+                    }, 20);
+                    });
                 </script>
             </div>
             <div id='qr'>
@@ -30,16 +38,13 @@
             </div>
             <div id="foto">
                 <script>
-                $(document).ready(function(){
-                setInterval(function(){
-                $("#foto").load('foto.php')
-                }, 1000);
+                    $(document).ready(function(){
+                    setInterval(function(){
+                    $("#foto").load('foto.php')
+                    }, 1000);
                 });
                 </script>
             </div>
-   
-
-                
         </div>
     </body>
 </html>
