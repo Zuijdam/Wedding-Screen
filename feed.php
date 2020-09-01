@@ -14,8 +14,8 @@
     </head>
 
     <body>
-        <div>
-            <div>
+        <div">
+            <div id="home">
                 <script>
                 $(document).ready(function(){
                 setInterval(function(){
