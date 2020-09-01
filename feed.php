@@ -1,12 +1,6 @@
 <?php
-require 'RedBeanPHP5_5/rb.php';
-try{
-    $db = new PDO('mysql:host=localhost;dbname=WeddingWall','root','root');
-} catch(PDOException $e){
-    echo $e->getmessage();
-}
+include("config.php");
 ?>
-
 <!doctype html>
 <html lang="en">
 
