@@ -11,12 +11,22 @@
     <title>Hello, world!</title>
   </head>
   <body>
-
-<form action="add.php" method="post">
-Name: <input type="text" name="author"><br>
-text: <input type="text" name="message"><br>
-<input type="submit">
-</form>
+  <div class="container-fluid">
+  <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h1>vul een bericht in voor Merel en Erik!</h1>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <form action="add.php" method="post">
+        Je naam <br><input type="text" name="author"><br>
+        Je bericht <br><textarea name="message"></textarea><br>
+        <input type="submit" label="versturen">
+        </form>
+      </div>
+    </div>
+  </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
