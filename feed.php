@@ -24,6 +24,9 @@
                 });
                 </script>
             </div>
+            <div id='qr'>
+                <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=300x300'>
+            </div>
         </div>
     </body>
 </html>
