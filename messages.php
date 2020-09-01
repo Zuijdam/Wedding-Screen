@@ -1,6 +1,7 @@
-1234 hoedje van papier
+
 
 <?php
+include 'config.php';
 require 'RedBeanPHP5_5/rb.php';
 R::setup(
     'mysql:host=localhost;dbname='.$database,
@@ -8,6 +9,6 @@ R::setup(
     $password
 );
 
-$post = R::load( 'post', 1);
+$post = R::load( 'post', 2);
 echo $post->title;
 ?>
