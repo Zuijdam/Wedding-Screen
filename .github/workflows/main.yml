@@ -1,0 +1,19 @@
+
+on: 
+  push:
+    branches: 
+      - master
+name: Publish Website
+jobs:
+  FTP-Deploy-Action:
+    name: FTP-Deploy-Action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@2.0.0
+      env:
+        FTP_SERVER: jorisxl2.two.axc.nl
+        FTP_USERNAME: ww@omloopdesnor.nl
+        FTP_PASSWORD: ${{ secrets.ftppassword }}
+        ARGS: --exclude-glob=.git*/** --exclude-glob=.git** --exclude=readme.md 
