@@ -9,3 +9,5 @@ Create config.php with:
 |$database|database name|WeddingWall|
 |$user|database username|WeddingWallUser|
 |$password|database password|password1|
+
+
