@@ -1,14 +1,14 @@
 
-
 <?php
-include 'config.php';
-require 'RedBeanPHP5_5/rb.php';
-R::setup(
-    'mysql:host=localhost;dbname='.$database,
-    $user,
-    $password
-);
+include 'inc.php';
 
-$post = R::load( 'post', 2);
+$post = R::load('post', 2);
 echo $post->title;
+
+
+$post = R::findAll('post');
+
+
+echo '<pre>'; print_r($post); echo '</pre>';
+
 ?>
