@@ -22,7 +22,7 @@
         <form action="add.php" method="post">
         Je naam <br><input type="text" name="author"><br>
         Je bericht <br><textarea name="message"></textarea><br>
-        <input type="submit" label="versturen">
+        <input type="submit" value="versturen">
         </form>
       </div>
     </div>
