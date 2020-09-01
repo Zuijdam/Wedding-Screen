@@ -1,11 +1,14 @@
+
 <?php
+include 'config.php';
 require 'RedBeanPHP5_5/rb.php';
 R::setup(
-    'mysql:host=localhost;dbname=WeddingWall',
-    'root',
-    'root'
-); //for both mysql or mariaDB
+    'mysql:host=localhost;dbname='.$database,
+    $user,
+    $password
+);
+
+    //test post
 $post = R::dispense('post');
-$post->title = '123hoedjevanpapier';
+$post->title = 'alaaf';
 $id = R::store($post);
-?>
