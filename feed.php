@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 
@@ -27,6 +28,19 @@
             <div id='qr'>
                 <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=300x300'>
             </div>
+            <!--
+                fototjes -->
+                <?php
+                $files = glob("images/*.*");
+
+                for ($i=0; $i<count($files); $i++) {
+                $image = $files[$i];
+                print $image ."<br />";
+                echo '<img width="300" src="'.$image .'" alt="Random image" />'."<br /><br />";
+                }
+                ?>
+
+                
         </div>
     </body>
 </html>
