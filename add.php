@@ -10,5 +10,6 @@ R::setup(
 
     //test post
 $post = R::dispense('post');
-$post->title = 'alaaf';
+$post->title = $_POST["message"];
+$post->author = $_POST["author"];
 $id = R::store($post);
