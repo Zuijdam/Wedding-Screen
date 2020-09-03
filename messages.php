@@ -2,13 +2,16 @@
 <?php
 include 'inc.php';
 
-echo '<b>Laatste update:</b><br>';
+//echo '<b>Laatste update:</b><br>';
 $post2 = R::findLast('post');
-echo '<i>'.$post2->title.'</i>';
-echo '<br>';
-echo $post2->author;
-echo '<br>';
-echo $post2->created;
+
+
+echo '<h1 class="display-4">'.$post2->title.'</h1>';
+echo '<p class="lead"><i>'.$post2->author.'</i></p>';
+echo '<p class="lead">';
+echo '</p>'
+
+
 
 //hele array
 //echo '<hr>';
@@ -16,3 +19,4 @@ echo $post2->created;
 //echo '<pre>'; print_r($post); echo '</pre>';
 
 ?>
+
