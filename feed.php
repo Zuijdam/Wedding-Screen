@@ -1,4 +1,5 @@
 
+
 <!doctype html>
 <html lang="en">
 
@@ -29,7 +30,7 @@
                         $(document).ready(function(){
                         setInterval(function(){
                         $("#home").load('messages.php')
-                        }, 200);
+                        }, 5000);
                         });
                         </script> 
                         </div>
