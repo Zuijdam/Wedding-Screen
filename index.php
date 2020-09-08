@@ -40,7 +40,7 @@ include 'inc.php';
 
             <div class="fixed-bottom">
                 <div class="float-right">
-                    <a href="form.php">Laat ook iets achter</a>! Scan hier de QR Code  
+                Scan de QR Code of ga naar <a href="form.php">http://www.geensnor.nl/ww/form.php</a> 
                     <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=150x150'>
                 </div>
                 <br>
