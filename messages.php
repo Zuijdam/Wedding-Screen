@@ -7,9 +7,10 @@ include 'inc.php';
 $post2 = R::findLast('post');
 
 
+echo '<small>Bericht:</small>';
 echo '<h1 class="display-4">'.$post2->title.'</h1>';
-echo '<p class="lead"><i>'.$post2->author.'</i></p>';
-echo '<p>'.toNiceTimeElapsed($post2->created).'</p>';
+echo '<hr>';
+echo '<p class="lead"><i>'.$post2->author.' - '.toNiceTimeElapsed($post2->created).'</i></p>';
 
 
 R::close();
