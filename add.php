@@ -2,12 +2,12 @@
 include 'inc.php';
 	//post message
 if($_POST["message"]){
-	$post = R::dispense('post');
-	$post->title = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
-	$post->author = filter_var($_POST["author"], FILTER_SANITIZE_STRING);
-	$post->created = date("Y-m-d H:i:s");
-	$id = R::store($post);
-
+    $post = R::dispense('post');
+    $post->title = filter_var($_POST["message"], FILTER_SANITIZE_STRING);
+    $post->author = filter_var($_POST["author"], FILTER_SANITIZE_STRING);
+    $post->created = date("Y-m-d H:i:s");
+    $post->show_time = date("Y-m-d H:i:s");
+    $id = R::store($post);
 
 ?>
 
