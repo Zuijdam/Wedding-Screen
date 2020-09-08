@@ -11,6 +11,13 @@
 }
 
 
+body{
+    background-color:#f9f9f3;
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
 
 body,html {
     height: 100%;
@@ -37,3 +44,16 @@ font-family: 'Special Elite';
 .hidden{
   display: none;
 }
+
+
+CSS-Tricks Example
+Simple Styles for <hr>'s
+Code
+Code
+Code
+Code
+Code
+Code
+Code
+/* Flaired edges, by Tomas Theunissen */
+
