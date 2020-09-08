@@ -43,7 +43,7 @@ else{
 
 }
 
-echo '<p class="lead">'.$displayAuthor.' schreef zojuist:  </p>';
+echo '<p class="lead">'.$displayAuthor.' schreef:  </p>';
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
 echo '<hr class="HRwit">';
 echo '<p class="lead"><footer class="blockquote-footer"><cite title="Source Title">'.toNiceTimeElapsed($displayCreated).'</cite></footer> </p>';
