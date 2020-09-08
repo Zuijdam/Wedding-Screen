@@ -27,7 +27,7 @@
         </div>
         <div class="form-group"> 
           <label>Je bericht</label>
-          <textarea rows="4" class="form-control" name="message"></textarea>
+          <textarea rows="4" class="form-control" name="message" maxlength = "200"></textarea>
         </div>
           <button class="btn btn-dark" type="submit">versturen</button>
         </div>

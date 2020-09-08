@@ -25,7 +25,6 @@ else{
         $displayCreated = $showPost[0]["created"];
     }
     else{
-
         //Als we een oude post 2 minuten hebben getoond, is het tijd om weer een andere oude post te pakken die ook de afgelopen 2 minuten niet is getoond
         $oldPosts = R::getAll('SELECT * FROM post WHERE show_time < NOW() - INTERVAL 120 SECOND');
 
