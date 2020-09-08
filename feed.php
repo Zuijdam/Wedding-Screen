@@ -21,7 +21,7 @@
         
             <div class="container d-flex h-100">
                 <div class="row align-self-center w-100">
-                        <div class="note small bg-light p-2" >
+                        
                             <span id="home">
                                 <script>
                                 $(document).ready(function(){
@@ -31,19 +31,8 @@
                                 });
                                 </script> 
                             </span>
-                        </div>
-                        <br>
-                        <div class="note small bg-light p-2" >
-                        <h2>Scan de QR code en laat een bericht achter! </h2>
-                        <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=300x300'>
-                    </div>
                 </div>
-            </div>
-
-
-
-
-            
+            </div>       
 
 
                     

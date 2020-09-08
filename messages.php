@@ -10,7 +10,7 @@ $post2 = R::findLast('post');
 
 echo '<h1 class="display-4">'.$post2->title.'</h1>';
 echo '<hr>';
-echo '<p class="lead"><footer class="blockquote-footer">'.$post2->author.' <cite title="Source Title">'.toNiceTimeElapsed($post2->created).'</cite></footer> </p>';
+echo '<p class="lead"><footer class="blockquote-footer">'.$post2->author.' (<cite title="Source Title">'.toNiceTimeElapsed($post2->created).')</cite></footer> </p>';
 
 
 R::close();
