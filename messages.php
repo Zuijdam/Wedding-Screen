@@ -3,7 +3,6 @@ include 'inc.php';
 
 $post2 = R::findLast('post');
 
-<<<<<<< Updated upstream
 //Posts van de laatste 2 minuten ophalen
 $recentPosts = R::getAll('SELECT * FROM post WHERE created > NOW() - INTERVAL 120 SECOND ORDER BY created DESC');
 
@@ -48,31 +47,9 @@ else{
 
 
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
-echo '<hr>';
+echo '<hr class="HRwit">';
 echo '<p class="lead"><footer class="blockquote-footer">'.$displayAuthor.' (<cite title="Source Title">'.toNiceTimeElapsed($displayCreated).')</cite></footer> </p>';
 echo '<div class="hidden">'.$displayId.'</div>';
-=======
-echo '<p class="lead"><strong>'.$post2->author.' </strong>schrijft zojuist: </p>';
-echo '<h1 class="display-4">'.$post2->title.'</h1>';
-echo '<hr class="HRwit">';
-//echo '<p class="lead"><footer class="blockquote-footer">'.$post2->author.' (<cite title="Source Title">'.toNiceTimeElapsed($post2->created).')</cite></footer> </p>';
-echo '<p class="lead"><footer class="blockquote-footer"><cite title="Source Title">'.toNiceTimeElapsed($post2->created).'</cite></footer> </p>';
-echo '<div class="hidden">'.$post2->id.'</div>';
-
-R::close();
-
-//hele array
-//echo '<hr>';
-//$post = R::findAll('post');
-//echo '<pre>'; print_r($post); echo '</pre>';
-
-?>
-
-
-
-
-
->>>>>>> Stashed changes
 
 
 R::close();
