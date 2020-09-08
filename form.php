@@ -14,15 +14,23 @@
   <div class="container-fluid">
   <div class="row justify-content-center">
       <div class="col-lg-6">
-        <h1>vul een bericht in voor Merel en Erik!</h1>
+        <h1>Schrijf iets leuks voor Erik en Merel!</h1>
+        <p>Je bericht wordt binnen enkele seconden op het scherm getoond.</p>
       </div>
     </div>
     <div class="row justify-content-center">
       <div class="col-lg-6">
-        <form action="add.php" method="post">
-        Je naam <br><input type="text" name="author"><br>
-        Je bericht <br><textarea name="message"></textarea><br>
-        <input type="submit" value="versturen">
+      <form action="add.php" method="post">
+        <div class="form-group">   
+          <label>Je naam</label>
+          <input type="text" class="form-control" name="author">
+        </div>
+        <div class="form-group"> 
+          <label>Je bericht</label>
+          <textarea rows="4" class="form-control" name="message"></textarea>
+        </div>
+          <button class="btn btn-dark" type="submit">versturen</button>
+        </div>
         </form>
       </div>
     </div>
