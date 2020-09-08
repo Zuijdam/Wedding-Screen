@@ -1,3 +1,6 @@
+<?php
+include 'inc.php';
+?>
 
 
 <!doctype html>
@@ -35,7 +38,14 @@
                                     
             <!-- QR dingetje hier -->
 
-            <div class="fixed-bottom"><div class="float-right"><a href="form.php">Laat ook iets achter</a>! Scan hier de QR Code  <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=200x200'></div><br></div>
+            <div class="fixed-bottom">
+                <div class="float-right">
+                    <a href="form.php">Laat ook iets achter</a>! Scan hier de QR Code  
+                    <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=200x200'>
+                </div>
+                <br>
+                
+            </div>
 
             <!--hier-->
         </div>  
