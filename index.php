@@ -40,7 +40,7 @@ include 'inc.php';
 
             <div class="fixed-bottom">
                 <div class="float-right">
-                Scan de QR Code of ga naar <a href="form.php">http://www.geensnor.nl/ww/form.php</a> 
+                Scan de QR Code of ga naar <a href="<?php echo urlencode($QRLink) ?>"><?php echo $QRLink ?></a> 
                     <img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=150x150'>
                 </div>
                 <br>
