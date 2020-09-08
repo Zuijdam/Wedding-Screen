@@ -29,7 +29,7 @@ include 'inc.php';
                                 $(document).ready(function(){
                                 setInterval(function(){
                                 $("#home").load('messages.php')
-                                }, 5000);
+                                }, 3000);
                                 });
                                 </script> 
                             </span>

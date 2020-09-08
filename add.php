@@ -29,7 +29,9 @@ if($_POST["message"]){
   <div class="row justify-content-center">
       <div class="col-lg-6">
         <h1>Bedankt! Je bericht is opgeslagen en over enkele ogenblikken te zien op het scherm!</h1>
-        <a href="index.php">Terug naar index.php</a>
+        <a href="index.php">Bekijk bericht</a>
+        <br>
+        <a href="form.php">Nog een bericht!</a>
       </div>
     </div>
 
