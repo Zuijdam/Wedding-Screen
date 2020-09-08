@@ -50,7 +50,10 @@ font-family: 'Special Elite';
   display: none;
 }
 
-.hr{
-  border-top: 1px solid whitesmoke;
+.HRwit{
+  height:2px;
+  border-width:0;
+  color:white;
+  background-color:white
 }
 
