@@ -18,14 +18,21 @@ body,html {
 
 .display-4 {
 font-family: 'Special Elite';
-  font-size: 5.2vw;
+  font-size: 4.6vw;
   font-weight: 300;
   line-height: 1.2;
 }
 
 .blockquote-footer{
-  font-size: large;
+  font-family: 'Special Elite';
+  font-size: 2vw;
 }
+
+.lead{
+  font-family: 'Special Elite';
+  font-size: 2vw;
+}
+
 
 .hidden{
   display: none;
