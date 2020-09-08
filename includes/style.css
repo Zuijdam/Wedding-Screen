@@ -1,9 +1,24 @@
+@font-face {
+    font-family: 'Special Elite';
+    src: url('SpecialElite-Regular.eot');
+    src: url('SpecialElite-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SpecialElite-Regular.woff2') format('woff2'),
+        url('SpecialElite-Regular.woff') format('woff'),
+        url('SpecialElite-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body,html {
     height: 100%;
   }
 
 .display-4 {
-  font-size: 5.9vw;
+font-family: 'Special Elite';
+  font-size: 5.2vw;
   font-weight: 300;
   line-height: 1.2;
 }
