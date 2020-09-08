@@ -46,8 +46,6 @@ else{
 }
 
 
-
-
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
 echo '<hr>';
 echo '<p class="lead"><footer class="blockquote-footer">'.$displayAuthor.' (<cite title="Source Title">'.toNiceTimeElapsed($displayCreated).')</cite></footer> </p>';
