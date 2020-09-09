@@ -12,8 +12,8 @@
 
 
 body{
-    /*background-image: url("/images/Waving_reeds_cinemagraph.gif"); */
-    background-color:#fbe3e8; 
+    background-image: url("../images/Waving_reeds_cinemagraph.gif"); 
+    /*background-color:#a39274; */
     background-size: cover;
     height: 100vh;
     padding:0;
