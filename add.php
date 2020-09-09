@@ -38,6 +38,7 @@ if($_POST["message"]){
   </div>
 </body>
 </html>
+
 <?php
 }
 else{
