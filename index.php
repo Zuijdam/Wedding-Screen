@@ -20,8 +20,8 @@ include 'inc.php';
 			<!-- Draggable DIV -->
 			<div id="mydiv">
 			<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-			<div id="mydivheader">Doe mee!</div>
-			<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=250x250'></a></p>
+			<div id="mydivheader">Doe mee! Scan de code!</div>
+			<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=200x200'></a></p>
 			</div> 
 
 
