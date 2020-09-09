@@ -46,7 +46,7 @@ else{
 echo '<p class="lead">'.$displayAuthor.' schreef:  </p>';
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
 echo '<hr class="HRwit">';
-echo '<p class="lead"><footer class="blockquote-footer">'.toNiceTimeElapsed($displayCreated).'</footer> </p>';
+echo '<p class="lead">'.toNiceTimeElapsed($displayCreated).'</p>';
 echo '<div class="hidden">'.$displayId.'</div>';
 
 
