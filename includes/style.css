@@ -63,3 +63,18 @@ font-family: 'Special Elite';
   background-color:white
 }
 
+#mydiv {
+  position: absolute;
+  z-index: 9;
+  background-color: #1a3a3a;
+  border: 1px solid #122929;
+  text-align: center;
+}
+
+#mydivheader {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #122929;
+  color: #fff;
+}

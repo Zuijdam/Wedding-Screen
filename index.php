@@ -14,8 +14,19 @@ include 'inc.php';
 		<!-- jquery used for reloading messages -->
 		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
 	</head>
-
+ 
 	<body>
+
+			<!-- Draggable DIV -->
+			<div id="mydiv">
+			<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+			<div id="mydivheader">Doe mee!</div>
+			<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=250x250'></a></p>
+			</div> 
+
+
+
+
 			<div class="container d-flex h-100">
 				<div class="row align-self-center w-100">
 							<span id="home">
@@ -29,15 +40,8 @@ include 'inc.php';
 							</span>
 				</div>
 
-			<!-- QR here-->
-			<div class="fixed-bottom">
-				<div class="float-right">
-				<span class="qr">Scan de QR Code of ga naar <a href="<?php echo $QRLink ?>"><?php echo $QRLink ?></a></span>
-					<img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=150x150'>
-				</div>
-				<br>
-			</div>
-			<!--qr end-->
+		
 		</div>
+
 	</body>
 </html>
