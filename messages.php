@@ -42,7 +42,7 @@ else{
     }
 
 }
-
+// Display message
 echo '<p class="lead">'.$displayAuthor.' schreef:  </p>';
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
 echo '<hr class="HRwit">';
