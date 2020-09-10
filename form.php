@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="includes/style.css">
     <title>WeddingWall - Nieuw bericht</title>
   </head>
   <body>
@@ -31,7 +31,7 @@
           <textarea rows="4" class="form-control" name="message" maxlength="200"></textarea>
           <small class="form-text text-muted">verplicht</small>
         </div>
-          <button class="btn btn-dark" type="submit">versturen</button>
+          <button class="btn btn-light" type="submit">versturen</button>
         </div>
         </form>
       </div>
