@@ -21,7 +21,7 @@ if($_POST["message"] && $_POST["author"]){
 
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="includes/style.css">
 	<title>Bedankt</title>
   </head>
   <body>
@@ -29,7 +29,6 @@ if($_POST["message"] && $_POST["author"]){
   <div class="row justify-content-center">
 	  <div class="col-lg-6">
 		<h1>Bedankt! Je bericht is opgeslagen en over enkele ogenblikken te zien op het scherm!</h1>
-		<a href="index.php">Bekijk bericht</a>
 		<br>
 		<a href="form.php">Nog een bericht!</a>
 	  </div>
