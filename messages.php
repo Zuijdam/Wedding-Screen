@@ -50,4 +50,3 @@ echo '<p class="lead">'.toNiceTimeElapsed($displayCreated).'</p>';
 
 
 R::close();
-?>

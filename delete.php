@@ -5,4 +5,3 @@ if($_GET["key"] == $deleteKey){
     R::trash($bericht);
     echo "bericht met id ".$_GET["id"]." verwijderd";
 }
-?>
