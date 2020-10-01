@@ -43,7 +43,7 @@ else{
 
 }
 // Display message
-echo '<p class="lead">'.$displayAuthor.' schreef:  </p>';
+echo '<p class="lead">'.$displayAuthor.' '.translation_wrote. ' </p>';
 echo '<h1 class="display-4">'.$displayTitle.'</h1>';
 echo '<hr class="HRwit">';
 echo '<p class="lead">'.toNiceTimeElapsed($displayCreated).'</p>';

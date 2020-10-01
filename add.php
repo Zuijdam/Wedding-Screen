@@ -18,8 +18,6 @@ if ($_POST["message"] && $_POST["author"]) {
     $post->show_time = date("Y-m-d H:i:s");
     $id = R::store($post);
   }
-
-
 ?>
 
 
