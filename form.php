@@ -25,12 +25,12 @@
         <form action="add.php" method="post">
           <div class="form-group">
             <label><?php echo translation_formlabelname; ?></label>
-            <input type="text" class="form-control" name="author" maxlength="25">
+            <input type="text" class="form-control" name="author" maxlength="25" required>
             <small class="form-text text-muted"><?php echo translation_formlabelmandatory; ?></small>
           </div>
           <div class="form-group">
             <label><?php echo translation_formlabelmessage; ?></label>
-            <textarea rows="4" class="form-control" name="message" maxlength="200"></textarea>
+            <textarea rows="4" class="form-control" name="message" maxlength="200" required></textarea>
             <small class="form-text text-muted"><?php echo translation_formlabelmandatory; ?></small>
           </div>
           <button class="btn btn-light" type="submit"><?php echo translation_formlabelsendbutton; ?></button>

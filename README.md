@@ -1,5 +1,11 @@
 # WeddingWall
-A way guests can post messages on a website and the venue can present the messages on the tv's in a great way
+A way guests can post messages on a website and the venue can present the messages on the tv's in a great way.
+
+# Installation
+- Host files on your own webserver.
+- Create a config.php (see below) in the root
+- Weddingwall will use a local sql Database. Create a empty database with the name provided in config.php and weddingwall will create the tables needed for weddingwall!
+- Change the text in include/translations.php for your own wedding!
 
 # Demo
 Demo here: [http://geensnor.nl/ww/](http://geensnor.nl/ww/)
