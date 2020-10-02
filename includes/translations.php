@@ -5,6 +5,14 @@ define("translation_wrote", "schreef");
 define("translation_dragdiv", "Drag me!");
 
 //Form Translations
+define ("translation_formtitle", "Insert title here");
+define ("translation_formdescription", "Insert description here");
+define ("translation_formlabelname", "name");
+define ("translation_formlabelmessage", "Insert message here");
+define ("translation_formlabelmandatory", "label mandatory");
+define ("translation_formlabelsendbutton", "label send");
+
+
 
 //Admin translations
 
