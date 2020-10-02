@@ -22,4 +22,7 @@ Create config.php with:
 |$user|database username|WeddingWallUser|
 |$password|database password|password1|
 
+# WeddingWall uses
+- **RedBeanPHP** to easily talk to our database. Check it out here [https://www.redbeanphp.com/index.php](https://www.redbeanphp.com/index.php)
+
 

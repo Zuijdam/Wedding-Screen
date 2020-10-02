@@ -42,14 +42,14 @@ if ($_POST["message"] && $_POST["author"]) {
           <?php
           if (!$duplicatePosts) {
             echo "
-      <h1>".translation_messagesaved."</h1>
+      <h1>" . translation_messagesaved . "</h1>
       <br>
-      <a href='form.php'>".translation_newmessage."</a>";
+      <a href='form.php'>" . translation_newmessage . "</a>";
           } else {
             echo "
-      <h1>".translation_alreadyexist."</h1>
+      <h1>" . translation_alreadyexist . "</h1>
       <br>
-      <a href='form.php'>".translation_back."</a>";
+      <a href='form.php'>" . translation_back . "</a>";
           }
           ?>
         </div>
@@ -62,8 +62,8 @@ if ($_POST["message"] && $_POST["author"]) {
 
 
 <?php
-// empty message error
+  // empty message error
 } else {
-  echo translation_nomessage. "<br> <a href='form.php'>".translation_back."</a>";
+  echo translation_nomessage . "<br> <a href='form.php'>" . translation_back . "</a>";
 }
 ?>
