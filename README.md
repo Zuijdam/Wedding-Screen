@@ -3,14 +3,16 @@ A way guests can post messages on a website and the venue can present the messag
 
 # Installation
 - Host files on your own webserver.
-- Create a config.php (see below) in the root
+- Create a config.php (see below) and save it in the root.
 - Weddingwall will use a local sql Database. Create a empty database with the name provided in config.php and weddingwall will create the tables needed for weddingwall!
+- Create a user in the database with the credentials provided in your config.php
 - Change the text in include/translations.php for your own wedding!
+- Go party go!
 
 # Demo
 Demo here: [http://geensnor.nl/ww/](http://geensnor.nl/ww/)
 
-# Config
+# Config file
 Create config.php with:
 |Variable|Usage|Example|
 |--------|-----|-------|
