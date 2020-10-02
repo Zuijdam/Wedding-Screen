@@ -11,7 +11,7 @@ define("translation_dragdiv", "Drag me!");
 //Function translations
 define("translation_minutes_ago", "minuten geleden");
 define("translation_hours_ago", "uren geleden");
-define("just", "zojuist");
+define("translation_just", "zojuist");
 define("translation_days_ago", "dagen geleden");
 
 

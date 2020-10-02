@@ -6,7 +6,7 @@ function toNiceTimeElapsed($date){
 	if(date("Ymd") == date("Ymd", strtotime($date))){
 	    if($sec < 60) {
 	      /* if less than a minute, return seconds */
-	      return just;
+	      return translation_just;
 	    }
 	    else if($sec < 60*60) {
 		  /* if less than an hour, return minutes */
