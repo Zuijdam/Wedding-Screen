@@ -42,14 +42,14 @@ if ($_POST["message"] && $_POST["author"]) {
           <?php
           if (!$duplicatePosts) {
             echo "
-      <h1>Bedankt! Je bericht is opgeslagen en over enkele ogenblikken te zien op het scherm!</h1>
+      <h1>".translation_messagesaved."</h1>
       <br>
-      <a href='form.php'>Nog een bericht!</a>";
+      <a href='form.php'>".translation_newmessage."</a>";
           } else {
             echo "
-      <h1>Bericht bestaat al</h1>
+      <h1>".translation_alreadyexist."</h1>
       <br>
-      <a href='form.php'>Terug</a>";
+      <a href='form.php'>".translation_back."</a>";
           }
           ?>
         </div>
@@ -60,8 +60,10 @@ if ($_POST["message"] && $_POST["author"]) {
 
   </html>
 
+
 <?php
+// empty message error
 } else {
-  echo "Geen bericht ingevuld <br> <a href='form.php'>Terug</a>";
+  echo translation_nomessage. "<br> <a href='form.php'>".translation_back."</a>";
 }
 ?>
