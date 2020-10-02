@@ -6,11 +6,11 @@ include 'inc.php';
 <html lang="en">
 
 <head>
-	<title>Wedding Wall by Geensnor.nl</title>
+	<title>Wedding Wall by Geensnor</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-
+	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<link rel="stylesheet" href="includes/style.css">
 	<!-- jquery used for reloading messages -->
@@ -21,7 +21,7 @@ include 'inc.php';
 	<!-- Draggable DIV -->
 	<div id="mydiv">
 		<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-		<div id="mydivheader"><?php echo translation_dragdiv; ?> </div>
+		<div id="mydivheader">(Drag me)</div>
 		<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=400x400'></a></p>
 	</div>
 	<div class="container d-flex h-100">
