@@ -24,5 +24,6 @@ Create config.php with:
 
 # WeddingWall uses
 - **RedBeanPHP** to easily talk to our database. Check it out here [https://www.redbeanphp.com/index.php](https://www.redbeanphp.com/index.php)
+- **Bootstrap** because it is so easy! [https://getbootstrap.com/](https://getbootstrap.com/)
 
 
