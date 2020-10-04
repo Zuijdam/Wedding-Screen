@@ -1,4 +1,6 @@
 <?php
+define ("version", "0.9");
+
 include 'config.php';
 include 'includes/functions.php';
 require 'includes/rb.php';
