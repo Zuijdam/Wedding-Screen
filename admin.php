@@ -7,7 +7,7 @@ if ($_GET["key"] != $deleteKey)
 if ($_GET["a"] == "delete") {
   $bericht = R::load('post', $_GET["id"]);
   R::trash($bericht);
-  echo "bericht met id " . $_GET["id"] . " verwijderd";
+  echo translation_deletemessageid . $_GET["id"];
 }
 
 
@@ -26,7 +26,7 @@ $allPosts = R::getAll('SELECT * FROM post ORDER BY created DESC');
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="includes/style.css">
-  <title>WeddingWall - Admin</title>
+  <title><?php echo translation_title; ?></title>
 </head>
 
 <body>
@@ -40,7 +40,7 @@ $allPosts = R::getAll('SELECT * FROM post ORDER BY created DESC');
                     <td>" . $post["title"] . "</td>
                     <td>" . $post["author"] . "</td>
                     <td>" . $post["created"] . "</td>
-                    <td><a href=admin.php?a=delete&key=" . $deleteKey . "&id=" . $post["id"] . ">delete</a></td>
+                    <td><a href=admin.php?a=delete&key=" . $deleteKey . "&id=" . $post["id"] . ">".translation_delete." </a></td>
                     
                  </tr>   ";
           }
