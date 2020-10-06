@@ -13,7 +13,7 @@ A way guests can post messages on a website and the venue can present the messag
 Create config.php with:
 |Variable|Usage|Example|
 |--------|-----|-------|
-|$QRLink |URL used in QR code|https://www.weddingwall.com|
+|$QRLink |URL used in QR code|https://www.geensnor.nl/testproject/add.php|
 |$deleteKey|Key to use delete function|MySuperSecretKey|
 |$database|database name|WeddingWall|
 |$user|database username|WeddingWallUser|
