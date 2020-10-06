@@ -4,7 +4,7 @@ A way guests can post messages on a website and the venue can present the messag
 # Installation
 - Host files on your own webserver.
 - Create a config.php (see below) and save it in the root.
-- Weddingwall will use a local sql Database. Create a empty database with the name provided in config.php and weddingwall will create the tables needed for weddingwall!
+- Weddingwall will use a local sql Database. Create a empty database with the name provided in config.php and Schwung Screen will create the tables needed for weddingwall!
 - Create a user in the database with the credentials provided in your config.php
 - Change the text in include/translations.php for your own wedding!
 - Go party go!
@@ -19,7 +19,7 @@ Create config.php with:
 |$user|database username|WeddingWallUser|
 |$password|database password|password1|
 
-# WeddingWall uses
+# Schwung Screen uses
 - **RedBeanPHP** to easily talk to our database. Check it out here [https://www.redbeanphp.com/index.php](https://www.redbeanphp.com/index.php)
 - **Bootstrap** because it is so easy! [https://getbootstrap.com/](https://getbootstrap.com/)
 
