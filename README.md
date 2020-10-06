@@ -9,9 +9,6 @@ A way guests can post messages on a website and the venue can present the messag
 - Change the text in include/translations.php for your own wedding!
 - Go party go!
 
-# Demo
-Demo here: [http://geensnor.nl/ww/](http://geensnor.nl/ww/)
-
 # Config file
 Create config.php with:
 |Variable|Usage|Example|
