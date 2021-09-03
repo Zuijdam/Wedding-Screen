@@ -1,24 +1,24 @@
 <?php
 
 //Main
-define("translation_title", "WeddingWall ".version."- Geensnor.nl");
+define("translation_title", "FlosterWall ".version."- Geensnor.nl");
 
 //WeddingWall translations
-define("translation_wrote", "wrote");
+define("translation_wrote", "schreef");
 define("translation_dragdiv", "Drag me!");
 
 //Add messages translations
 define ("translation_formtitle", "Insert title here");
 define ("translation_formdescription", "Insert description here");
-define ("translation_formlabelname", "Name");
-define ("translation_formlabelmessage", "Insert message here");
-define ("translation_formlabelmandatory", "Label mandatory");
-define ("translation_formlabelsendbutton", "Label send");
-define ("translation_messagesaved", "Thank you! Your message is visible in seconds!");
+define ("translation_formlabelname", "Naam");
+define ("translation_formlabelmessage", "Zeg iets leuks!");
+define ("translation_formlabelmandatory", "Verplicht");
+define ("translation_formlabelsendbutton", "Ok!");
+define ("translation_messagesaved", "Super bedankt! Je bericht is over enkele seconden zichtbaar.");
 define ("translation_alreadyexist", "Error, this message already exists");
-define ("translation_nomessage", "no message");
-define ("translation_back", "back");
-define ("translation_newmessage", "new messsage");
+define ("translation_nomessage", "Geen bericht...probeer opnieuw!");
+define ("translation_back", "Terug");
+define ("translation_newmessage", "Nieuw bericht");
 
 //Admin translations
 define ("translation_deletemessageid", "message deleted with id:");

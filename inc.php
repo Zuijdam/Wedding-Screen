@@ -6,7 +6,7 @@ include 'includes/functions.php';
 require 'includes/rb.php';
 
 R::setup(
-  'mysql:host=localhost;dbname=' . $database,
+  'mysql:host=remotemysql.com;dbname=' . $database,
   $user,
   $password
 );
