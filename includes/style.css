@@ -24,6 +24,7 @@ body{
 
 body,html {
     height: 100%;
+    color:white;
   }
 
 .display-4, h1 {
@@ -31,25 +32,25 @@ font-family: 'Special Elite';
   font-size: 4.0vw;
   font-weight: 300;
   line-height: 1.2;
-  color:#ffffff;
+  color:#57586E;
 }
 
 .blockquote-footer{
   font-family: 'Special Elite';
   font-size: 2vw;
-  color:#ffffff;
+  color:#57586E;
 }
 
 .lead{
   font-family: 'Special Elite';
   font-size: 2vw;
-  color:#ffffff;
+  color:#57586E;
 }
 
 .qr{
   font-family: 'Special Elite';
   font-size: 1vw;
-  color:#ffffff;
+  color:#57586E;
 }
 
 
@@ -60,23 +61,32 @@ font-family: 'Special Elite';
 .HRwit{
   height:2px;
   border-width:0;
-  color:white;
-  background-color:white
+  background-color:#57586E;
 }
 
 #mydiv {
   position: absolute;
   z-index: 9;
   background-color: #1a3a3a;
-  border: 1px solid #122929;
+  border: 1px solid #1a3a3a;
   text-align: center;
 }
 
 #mydivheader {
-  padding: 10px;
   cursor: move;
   z-index: 10;
-  background-color: #122929;
-  color: #fff;
+  background-color: #91acac;
+  color: #FFF;
+}
+
+.dragbar {
+  height: 3em;
+  background-color: #91acac;
+  cursor:move;
+}
+
+.dragbar img
+{
+  height: inherit;
 }
 

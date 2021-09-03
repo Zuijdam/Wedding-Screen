@@ -4,9 +4,10 @@ define ("version", "0.9");
 include 'config.php';
 include 'includes/functions.php';
 require 'includes/rb.php';
+include 'includes/translations.php';
 
 R::setup(
-  'mysql:host=remotemysql.com;dbname=' . $database,
+  'mysql:host=localhost;dbname=' . $database,
   $user,
   $password
 );
