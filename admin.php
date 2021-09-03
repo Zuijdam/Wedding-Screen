@@ -46,6 +46,8 @@ $allPosts = R::getAll('SELECT * FROM post ORDER BY created DESC');
           }
           ?>
         </table>
+        <hr>
+        <a href="./index.php"><?php echo translation_backtohome; ?></a>
       </div>
     </div>
   </div>
