@@ -1,10 +1,13 @@
 <?php
-$QRLink = "<insert website>/form.php";
+//QR
+$QRLink = "https://yoursite/form.php";
+$QRsize = "300x300";
 
 //Database
 $database = "test";
 $user = "test";
 $password = "test";
 
-$deleteKey = "supersecretkeyword"
+//Admin
+$deleteKey = "test1234"
 ?>  

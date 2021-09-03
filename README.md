@@ -19,6 +19,7 @@ Create config.php with:
 |Variable|Usage|Example|
 |--------|-----|-------|
 |$QRLink |URL used in QR code|https://www.geensnor.nl/testproject/add.php|
+|QRsize | size of QR code |400x400|
 |$deleteKey|Key to use delete function|MySuperSecretKey|
 |$database|database name|WeddingWall|
 |$user|database username|WeddingWallUser|

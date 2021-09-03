@@ -22,8 +22,8 @@ include 'inc.php';
 	<div id="mydiv">
 		<!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
 		<div class="dragbar"><img src="images/drag.webp"></img></div>
-		<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=400x400'></a></p>
-		<p> Scan en schrijf iets leuks! </p>
+		<p><a href="<?php echo $QRLink ?>"><img src='https://chart.googleapis.com/chart?cht=qr&chl=<?php echo urlencode($QRLink) ?>&chs=<? echo $QRsize ?>'></a></p>
+		<p class="dragbarbottom"> Scan en schrijf iets leuks! </p>
 	</div>
 	<div class="container d-flex h-100">
 		<div class="row align-self-center w-100">
